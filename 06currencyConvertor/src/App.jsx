@@ -17,10 +17,10 @@ function App() {
   const swap = () => {
     setFrom(to)
     setTo(from)
-    setConvertedAmount(amount)
     setAmount(convertedAmount)
-  }
-  
+    setConvertedAmount(amount)
+}
+
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to])
   }
